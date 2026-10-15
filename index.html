@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#152c27" />
+  <meta name="description" content="@BANNA912DHURADAKALAN: Hindi and English exam practice for UPSC CSE, CAPF AC and CDS OTA students." />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+  <link rel="canonical" href="https://anilsing129142-spec.github.io/banna912dhuradakalan/" />
+  <meta property="og:title" content="@BANNA912DHURADAKALAN — Exam Practice" />
+  <meta property="og:description" content="Timed practice and study links for a small UPSC, CAPF and CDS study group." />
+  <meta property="og:type" content="website" />
+  <title>@BANNA912DHURADAKALAN — Exam Practice</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="@BANNA912DHURADAKALAN home"><span class="brand-mark">B</span><span>@BANNA912DHURADAKALAN<small>Exam practice for our group</small></span></a>
+    <nav><a href="#home" class="nav-link active">डैशबोर्ड</a><a href="#library" class="nav-link">अध्ययन सामग्री</a><button id="langToggle" class="secondary-btn" style="padding:7px 10px">English</button></nav>
+    <div class="user-pill"><span class="online-dot"></span><span id="studentName">मेरी तैयारी</span><button id="nameBtn" class="icon-btn" title="नाम बदलें" aria-label="नाम बदलें">✎</button></div>
+  </header>
+  <main id="app">
+    <section id="homeView">
+      <section class="welcome panel-dark"><div><span class="eyebrow">नमस्ते, परीक्षार्थी 👋</span><h1>आज की तैयारी,<br><em>कल की सफलता।</em></h1><p>अपनी परीक्षा चुनें और तैयारी को छोटे, असरदार अभ्यासों में बाँटें।</p><button class="primary-btn" id="startBtn">अभ्यास शुरू करें <span>→</span></button></div><div class="welcome-art"><div class="sun"></div><div class="hill hill-one"></div><div class="hill hill-two"></div><div class="book-stack"><i></i><i></i><i></i><b>आज पढ़ें</b></div></div></section>
+      <section class="stat-row"><article class="stat-card"><span class="stat-icon peach">◷</span><div><small>कुल अभ्यास</small><strong id="testCount">0</strong></div></article><article class="stat-card"><span class="stat-icon mint">✓</span><div><small>औसत अंक</small><strong id="avgScore">—</strong></div></article><article class="stat-card"><span class="stat-icon lilac">♧</span><div><small>पढ़ाई का क्रम</small><strong id="streak">शुरू करें</strong></div></article></section>
+      <section class="section-heading"><div><span class="eyebrow green">अपनी राह चुनें</span><h2>आपकी परीक्षा</h2></div><span class="muted">परीक्षा चुनकर अभ्यास शुरू करें</span></section>
+      <section class="exam-grid" id="examGrid"></section>
+      <section class="section-heading"><div><span class="eyebrow green">तेज़ शुरुआत</span><h2>विषयवार अभ्यास</h2></div><button id="allSubjectsBtn" class="text-btn">सभी विषय →</button></section>
+      <section class="subject-grid" id="subjectGrid"></section>
+      <section class="section-heading"><div><span class="eyebrow green">आपकी प्रगति</span><h2>हाल के अभ्यास</h2></div></section>
+      <section id="historyList" class="history-list"></section>
+    </section>
+    <section id="libraryView" class="hidden">
+      <div class="page-heading"><span class="eyebrow green">भरोसेमंद और निःशुल्क</span><h1>अध्ययन सामग्री</h1><p>आधिकारिक प्रश्नपत्र, NCERT पुस्तकें और समसामयिक जानकारी — सीधे स्रोत से पढ़ें।</p></div>
+      <div class="resource-grid" id="resourceGrid"></div>
+      <div class="note-box"><strong>स्रोत से पढ़ें, ऐप में अभ्यास करें</strong><p>बाहरी PDF या लेख अपने मूल संस्थान की साइट पर खुलेंगे। यहाँ किसी पुस्तक या सामग्री की अनधिकृत प्रतिलिपि नहीं रखी गई है।</p></div>
+    </section>
+    <section id="testView" class="hidden"></section>
+    <section id="resultView" class="hidden"></section>
+  </main>
+  <footer><span>परीक्षा साथी <b>•</b> छोटा समूह, बड़ी तैयारी</span><span>आपकी प्रगति इसी ब्राउज़र में सुरक्षित रहती है।</span></footer>
+  <div id="modalRoot"></div>
+  <script src="app.js"></script>
+</body>
+</html>
