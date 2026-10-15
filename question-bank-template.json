@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "s": "polity",
+      "c": "संविधान की प्रस्तावना",
+      "q_hi": "हिंदी में प्रश्न लिखें",
+      "q_en": "Write the question in English",
+      "o_hi": ["विकल्प A", "विकल्प B", "विकल्प C", "विकल्प D"],
+      "o_en": ["Option A", "Option B", "Option C", "Option D"],
+      "a": 0,
+      "e_hi": "सही उत्तर की पूरी हिंदी व्याख्या लिखें।",
+      "e_en": "Write a detailed explanation of the correct answer."
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://anilsing129142-spec.github.io/banna912dhuradakalan/sitemap.xml
